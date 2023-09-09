@@ -62,7 +62,7 @@ joblib.dump(tfidf_vectorizer, 'tfidf_vectorizer.pkl')
 joblib.dump(random_forest_model, 'spam_model.pkl')
 
 # Create a Streamlit app 
-st.title("Email Spam Detection App")
+st.title("Email Spam Detection ")
 email_text = st.text_area("Enter an email:")
 
 #function to classify the email
